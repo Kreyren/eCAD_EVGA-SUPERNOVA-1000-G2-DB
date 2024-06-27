@@ -918,7 +918,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "281c3af5-334e-4880-a58f-bb74b463023e")
 		)
-		(model "/home/kreyren/Downloads/stuffson/62409-1.step"
+		(model "${KIPRJMOD}/62409-1.pretty/62409-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1133,13 +1133,12 @@
 			(pintype "passive")
 			(uuid "b6875820-53d6-49e6-b645-491113fa5d47")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
-			(hide yes)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz -3 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.075 0.9 0.8)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -1706,7 +1705,7 @@
 		(uuid "4abdb335-ceb5-481b-ae77-c9c862615e80")
 		(at 15.5 4.5)
 		(property "Reference" "C1"
-			(at -3.8 1.5 0)
+			(at -5.205868 -1.325518 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6f102265-e653-4855-9254-c4a5fb48f264")
@@ -1825,6 +1824,19 @@
 			(layer "F.SilkS")
 			(uuid "6a213d8b-78c6-4e29-969c-8ec0db66e4e0")
 		)
+		(fp_text user "+340VAC 0.33uF"
+			(at -5.5 2.368968 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7d97701e-4935-474f-9b04-19bff747b5a0")
+			(effects
+				(font
+					(size 1.25 1.25)
+					(thickness 0.2)
+				)
+				(justify left bottom)
+			)
+		)
 		(fp_text user "${REFERENCE}"
 			(at 0 11.5 0)
 			(unlocked yes)
@@ -1856,6 +1868,17 @@
 			(net 2 "Net-(P1-AC_P)")
 			(pintype "passive")
 			(uuid "142d1250-ca6c-41f4-af2a-c77bcb8d8fe9")
+		)
+		(model "/home/kreyren/Downloads/MKP4G033305B00MSSD.STEP"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 0 0)
+			)
 		)
 	)
 	(footprint "EVGA:IEC_320-C14_Panel_Mount"
@@ -1979,6 +2002,17 @@
 			(pinfunction "AC_N")
 			(pintype "power_out")
 			(uuid "49b16a34-6769-4189-ba37-16db8f124af9")
+		)
+		(model "${KIPRJMOD}/power-socket-c14-1.pretty/powerSocket.stp"
+			(offset
+				(xyz 0.5 -0.5 -2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -180 180)
+			)
 		)
 	)
 	(footprint "EVGA:EVGA_Switch"
@@ -2119,13 +2153,24 @@
 			(pintype "passive")
 			(uuid "eb5900b5-7e6a-4bcf-a9ee-563cbdc7d2ee")
 		)
+		(model "${KIPRJMOD}/R1973BBLKGILFF1/R1973BBLKGILFF1--3DModel-STEP-520916.STEP"
+			(offset
+				(xyz 1 0 -3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
 	)
 	(footprint "62409-1:TE_62409-1"
 		(layer "F.Cu")
 		(uuid "fd858adf-8879-458a-b155-055cf4bdce2f")
-		(at 3.302 22.352 90)
+		(at 1.801183 22.458719 90)
 		(property "Reference" "J1"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(uuid "b2f48b74-ff6f-4bdb-8403-ab49b2ce8305")
 			(effects
@@ -2916,7 +2961,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "11294255-25fe-4551-a758-b7186117a0ba")
 		)
-		(model "/home/kreyren/Downloads/stuffson/62409-1.step"
+		(model "${KIPRJMOD}/62409-1.pretty/62409-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2942,7 +2987,7 @@
 	)
 	(gr_rect
 		(start 0.3 0.3)
-		(end 13.8 5.35)
+		(end 12.3 5.35)
 		(stroke
 			(width 0)
 			(type solid)
@@ -2954,7 +2999,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 13.75 16.575) (xy 7.75 16.575) (xy 10.45 20.25)
+			(xy 12.3 16.55) (xy 7.75 16.575) (xy 10.606836 19.79019)
 		)
 		(stroke
 			(width 0)
@@ -2967,7 +3012,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 17.16 16.38) (xy 21.425 20.4) (xy 23.75 16.38)
+			(xy 18.66 16.38) (xy 21.425 20.4) (xy 23.75 16.38)
 		)
 		(stroke
 			(width 0)
@@ -2975,12 +3020,12 @@
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(net 1)
+		(net 2)
 		(uuid "2b682867-54bc-4986-862c-b473be40007c")
 	)
 	(gr_rect
 		(start 7.8 5.35)
-		(end 13.8 16.55)
+		(end 12.3 16.55)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3144,8 +3189,8 @@
 		(uuid "b3b4e9fb-53e4-41f0-95bf-061f406ac60f")
 	)
 	(gr_rect
-		(start 25.675 5.4)
-		(end 31.7 45.7)
+		(start 25.675 5.5)
+		(end 31.7 45.3)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3170,7 +3215,7 @@
 		(uuid "d90d9653-3bd5-4b91-a7a4-ac8e30f47f0c")
 	)
 	(gr_rect
-		(start 17.16 0.3)
+		(start 18.66 0.3)
 		(end 31.7 5.4)
 		(stroke
 			(width 0)
@@ -3178,7 +3223,7 @@
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(net 1)
+		(net 2)
 		(uuid "da469ea9-e54d-4c5d-8243-dfa78b7eae4b")
 	)
 	(gr_circle
@@ -3194,7 +3239,7 @@
 		(uuid "e534fe79-db5e-49a6-87a3-8447ffe75b32")
 	)
 	(gr_rect
-		(start 17.16 5.4)
+		(start 18.66 5.4)
 		(end 23.75 16.38)
 		(stroke
 			(width 0)
@@ -3202,7 +3247,7 @@
 		)
 		(fill solid)
 		(layer "F.Cu")
-		(net 1)
+		(net 2)
 		(uuid "f1522c5d-2b35-4c87-9cdd-d5f14207fa88")
 	)
 	(gr_poly
@@ -3239,7 +3284,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "1c218ad4-1375-4aac-b88a-f0e894c52dfa")
 	)
 	(gr_poly
@@ -3300,7 +3345,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "4bcdebd1-1008-4eb4-9e08-c95f2db9c33a")
 	)
 	(gr_circle
@@ -3312,7 +3357,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "4dc82129-238d-4c1c-9805-09bf9ba10b21")
 	)
 	(gr_circle
@@ -3337,7 +3382,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "67b0d23e-5e37-43e0-9c4e-0f496135322b")
 	)
 	(gr_circle
@@ -3387,7 +3432,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "85ac0269-d4a5-4378-b0ec-55904cb333f4")
 	)
 	(gr_circle
@@ -3462,7 +3507,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "af1658c8-07be-4aa0-928e-48a91292dd1c")
 	)
 	(gr_circle
@@ -3487,7 +3532,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "be10e72b-ad1f-4272-bb89-2c273ae9e2ce")
 	)
 	(gr_circle
@@ -3512,7 +3557,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "c2785617-fa3b-47a1-9316-76b2ed7530e9")
 	)
 	(gr_circle
@@ -3572,7 +3617,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "d2b894ed-460e-4f7b-9e07-8ecf05257d26")
 	)
 	(gr_circle
@@ -3596,7 +3641,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "d73bfb56-2527-4573-a335-2b3d856bac56")
 	)
 	(gr_circle
@@ -3608,7 +3653,7 @@
 		)
 		(fill solid)
 		(layer "B.Cu")
-		(net 1)
+		(net 2)
 		(uuid "da279350-9f77-49cd-b07b-9a8d3fdf54b1")
 	)
 	(gr_arc
@@ -3860,6 +3905,30 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BLACK"
+		(at 4.304655 24.512474 90)
+		(layer "F.SilkS")
+		(uuid "96cc3332-1264-466c-8153-adb10c082307")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RED"
+		(at 5.96935 40.551697 90)
+		(layer "F.SilkS")
+		(uuid "9c181bd7-4d53-4e56-a862-bfb22be2af15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
