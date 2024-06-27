@@ -10,6 +10,305 @@
 		(rev "R0")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_WallPlug_Earth"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "Conn_WallPlug_Earth"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pin general wall plug, with Earth wire (110VAC, 220VAC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "wall plug 110VAC 220VAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_WallPlug_Earth_0_1"
+				(arc
+					(start -3.175 -3.81)
+					(mid 0.6184 0)
+					(end -3.175 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -0.635 2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.81) (xy -3.175 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -9.398) (xy 3.556 -9.398)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -9.906) (xy 3.302 -9.906)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -10.414) (xy 3.048 -10.414)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -10.922) (xy 2.794 -10.922)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 2.54 -8.89)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 1.27 -8.89)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.905 -7.62) (xy 1.905 0) (xy -4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Conn_WallPlug_Earth_1_1"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "AC_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "AC_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "EARTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -249,191 +548,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Simulation_SPICE:VSIN"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "VSIN"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage source, sinusoidal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Sim.Type" "SIN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation ac vac"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSIN_0_0"
-				(arc
-					(start 0 0)
-					(mid -0.635 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 -0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VSIN_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VSIN_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -809,6 +923,276 @@
 				)
 			)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 52.07 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "119c49f6-2055-46b0-915e-6f202bc412d7")
 	)
 	(junction
 		(at 119.38 102.87)
@@ -817,16 +1201,16 @@
 		(uuid "2219ea1e-08c6-47f2-957a-06e579fa2a38")
 	)
 	(junction
-		(at 52.07 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d2690ea-18da-4f8a-96ea-fe6b4585c1e1")
-	)
-	(junction
 		(at 52.07 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b512934-63dd-4741-873e-d4502abbbacd")
+	)
+	(junction
+		(at 105.41 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715bbac1-d692-48af-b9e3-19538a54a233")
 	)
 	(junction
 		(at 105.41 132.08)
@@ -839,12 +1223,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b24f8d2c-d901-4483-848e-97eb9a76ac69")
-	)
-	(junction
-		(at 105.41 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dba361f4-de77-47a4-aa04-f334a0b65e47")
 	)
 	(no_connect
 		(at 151.13 177.8)
@@ -882,6 +1260,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 148.59) (xy 76.2 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1b1aac-41d6-4607-a85d-8436f6a0ab96")
+	)
+	(wire
+		(pts
 			(xy 52.07 148.59) (xy 52.07 132.08)
 		)
 		(stroke
@@ -889,16 +1277,6 @@
 			(type default)
 		)
 		(uuid "1d2bdf8f-9d77-4691-b887-0c18be5bff0a")
-	)
-	(wire
-		(pts
-			(xy 82.55 118.11) (xy 105.41 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c272cda-c8bb-4d08-9fb9-05741c6fb0ff")
 	)
 	(wire
 		(pts
@@ -952,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 102.87) (xy 105.41 118.11)
+			(xy 105.41 102.87) (xy 105.41 119.38)
 		)
 		(stroke
 			(width 0)
@@ -972,13 +1350,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 52.07 118.11)
+			(xy 52.07 88.9) (xy 52.07 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f33ae1c-8f15-4e62-b834-419501fc43bf")
+	)
+	(wire
+		(pts
+			(xy 52.07 119.38) (xy 52.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71244f47-e615-415d-ac02-4e22f3edec55")
 	)
 	(wire
 		(pts
@@ -992,6 +1380,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 148.59) (xy 81.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783200dd-fd34-4703-9657-5b5bf2f42a75")
+	)
+	(wire
+		(pts
 			(xy 119.38 100.33) (xy 119.38 102.87)
 		)
 		(stroke
@@ -1002,33 +1400,33 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 132.08) (xy 52.07 118.11)
+			(xy 82.55 119.38) (xy 105.41 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0fe698e-68d4-44dd-bb3c-af50d13befd5")
+		(uuid "90b65e16-3c1b-4a0c-8fc1-5c27ca5aac87")
 	)
 	(wire
 		(pts
-			(xy 83.82 148.59) (xy 105.41 148.59)
+			(xy 81.28 148.59) (xy 81.28 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6d5206b-57c9-4876-b071-fc22575ff569")
+		(uuid "9e7c68ea-46a3-474a-97f6-66da95b04e3d")
 	)
 	(wire
 		(pts
-			(xy 105.41 132.08) (xy 105.41 118.11)
+			(xy 52.07 148.59) (xy 76.2 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad7e59ee-2dc3-4a3f-bf34-0ca3bef0ce68")
+		(uuid "a9ac8d30-00ea-46c9-8f31-4f1661f0268a")
 	)
 	(wire
 		(pts
@@ -1052,6 +1450,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 119.38) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6dcb04f-1d22-4b4e-972c-95cebf92d577")
+	)
+	(wire
+		(pts
 			(xy 134.62 105.41) (xy 139.7 105.41)
 		)
 		(stroke
@@ -1059,16 +1467,6 @@
 			(type default)
 		)
 		(uuid "d6894626-a14d-4ab6-a5ba-412a2a7e76ae")
-	)
-	(wire
-		(pts
-			(xy 52.07 148.59) (xy 73.66 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9292746-7867-401d-8fc2-6bf8d5760956")
 	)
 	(wire
 		(pts
@@ -1082,13 +1480,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 74.93 118.11)
+			(xy 52.07 119.38) (xy 74.93 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f68cac60-0808-4074-8fd8-2a0e0e5d10c8")
+		(uuid "f918e16e-a997-4d0b-bd10-9de641732037")
 	)
 	(rectangle
 		(start 127 167.64)
@@ -1112,6 +1510,16 @@
 		)
 		(uuid "bf388ea2-991c-41c9-aa85-2c872bb28ba3")
 	)
+	(text "220~240 VAC 50Hz\n\nADAM TECH - IEC-A-2"
+		(exclude_from_sim no)
+		(at 79.248 176.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9d04a60-1508-4917-987b-fc61e3fb8e4b")
+	)
 	(label "Wires are connected someone on the PSU's Mainboard"
 		(at 139.7 86.36 180)
 		(fields_autoplaced yes)
@@ -1134,47 +1542,143 @@
 		)
 		(uuid "a1ed0cf9-00fe-4133-bd48-968e80cc43a1")
 	)
-	(global_label "Red Wire"
-		(shape input)
-		(at 153.67 102.87 0)
+	(symbol
+		(lib_id "Connector:Conn_WallPlug_Earth")
+		(at 78.74 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "299a3d53-fedb-47a9-8d26-532df72bbe65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.0614 102.87 0)
+		(uuid "5678729c-9916-424a-b2f7-32b793c0a21e")
+		(property "Reference" "P1"
+			(at 91.44 165.4936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_WallPlug_Earth"
+			(at 91.44 168.0336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EVGA:IEC_320-C14_Panel_Mount"
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin general wall plug, with Earth wire (110VAC, 220VAC)"
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c10e59-0ecd-4604-bdf5-d1c97371b49c")
+		)
+		(pin "3"
+			(uuid "46b26f03-a557-40c7-b3b6-dd607bb61431")
+		)
+		(pin "2"
+			(uuid "0555ce9b-deee-4e83-9ee3-ee5348d44d33")
+		)
+		(instances
+			(project "power-thing"
+				(path "/8766be43-8ceb-49b1-8438-758f0095b1c2"
+					(reference "P1")
+					(unit 1)
+				)
 			)
 		)
 	)
-	(global_label "Black Wire"
-		(shape input)
-		(at 153.67 88.9 0)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "891ea47e-6c46-477b-b833-0c07d1d9e3a6")
+		(property "Reference" "#FLG02"
+			(at 155.575 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "9c1eb092-0897-4ce3-ba99-8f7364f4b3be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7547 88.9 0)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41d16775-f987-44e9-b0bc-051aba133179")
+		)
+		(instances
+			(project "power-thing"
+				(path "/8766be43-8ceb-49b1-8438-758f0095b1c2"
+					(reference "#FLG02")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1246,7 +1750,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 118.11 90)
+		(at 78.74 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1254,7 +1758,7 @@
 		(dnp no)
 		(uuid "9e9e638d-705e-4302-bf03-c59b7c5fa151")
 		(property "Reference" "R1"
-			(at 80.01 111.506 90)
+			(at 80.01 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1767,7 @@
 			)
 		)
 		(property "Value" "1.5±10% MΩ "
-			(at 86.36 114.554 90)
+			(at 86.36 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,8 +1775,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 119.888 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 78.74 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 118.11 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +1794,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 118.11 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EVGA:EVGA_Switch"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -1412,7 +1916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EVGA:FTK_Capacitor"
 			(at 78.74 132.08 0)
 			(effects
 				(font
@@ -1455,25 +1959,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VSIN")
-		(at 78.74 148.59 90)
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f90ae6dc-1f12-4bc0-a4d9-9d2cf447b0e3")
-		(property "Reference" "V1"
-			(at 79.756 161.544 90)
+		(fields_autoplaced yes)
+		(uuid "f7bf2e22-576f-4b67-bc5f-03d1a58ad58d")
+		(property "Reference" "#FLG01"
+			(at 155.575 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "VSIN (EUROPLUG)"
-			(at 88.392 157.988 90)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 148.59 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,8 +1995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 78.74 148.59 0)
+		(property "Datasheet" "~"
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,62 +2004,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage source, sinusoidal"
-			(at 78.74 148.59 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "220~240 V 50 Hz"
-			(at 87.376 155.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "6b4fc2c2-d340-4ade-881d-953f5fb80e81")
-		)
-		(pin "2"
-			(uuid "0ae82389-5ef2-419f-86d6-d6303532f04f")
+			(uuid "0cc010ea-1dbd-4a6e-9481-ea4f4b9a31fe")
 		)
 		(instances
 			(project "power-thing"
 				(path "/8766be43-8ceb-49b1-8438-758f0095b1c2"
-					(reference "V1")
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 86.36 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f86ce6dc-40a8-4d10-9a50-d60938ba9a0d")
+		(property "Reference" "#PWR01"
+			(at 86.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 86.487 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c171be-ebb7-4d61-ba45-31df170b6781")
+		)
+		(instances
+			(project "power-thing"
+				(path "/8766be43-8ceb-49b1-8438-758f0095b1c2"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
