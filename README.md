@@ -12,7 +12,7 @@ Electronics breakdown: https://www.techpowerup.com/review/evga-supernova-g2-1000
 
 Turning off the power switch **IS NOT ENOUGH TO CUT POWER TO THE RELEVANT COMPONENT**, it only cuts power to one phase, but **THE OTHER PHASE GOES SOMEWHERE IN THE MAINBOARD AND __IS LIVE WITH UP TO 240 VOLTS 10 AMPS ALTERNATE CURRENT, MORE THAN ENOUGH TO KILL YOU OR CAUSE YOU SERIOUS INJURY__!**.
 
-**ALWAYS DISCONNECT FROM POWER AND VERIFY THAT THE POWER SUPPLY IS NOT LIVE WITH APPROPRIATE EQUIPMENT** e.g. CAT III multimeter **__WITH LEADS CERTIFIED ON 240V 10 AMPS ALTERNATE CURRENT__** as the mainboard has a large capacitors **WHICH COULD ELECTROCUTE YOU**.
+**ALWAYS DISCONNECT FROM POWER AND VERIFY THAT THE POWER SUPPLY IS NOT LIVE WITH APPROPRIATE EQUIPMENT** e.g. CAT III multimeter **__WITH LEADS CERTIFIED ON 240V 10 AMPS ALTERNATE CURRENT__** as the mainboard has a large capacitors **WHICH COULD ELECTROCUTE YOU __EVEN IF THE POWER SUPPLY IS NOT CONNECTED TO POWER__!!**
 
 **ALWAYS PERFORM MAINTANANCE ON THE DEVICE UNDER QUALIFIED SUPERVISION** ideally professional who is certified to provide first aid to electrocuted patients and thus capable of saving your life, as **IN CASE OF AN ELECTROCUTION YOU WILL NEED A DEFIBRILATOR __GENERIC FIRST AID AND HEART MASSAGE IS NOT ENOUGH TO SAVE YOUR LIFE AFTER ELECTROCUTION__** as if current goes through your heart muscles there is a high risk of the current causing the muscles to beat out of sync causing your heart to be unable to oxygenate your blood.
 
