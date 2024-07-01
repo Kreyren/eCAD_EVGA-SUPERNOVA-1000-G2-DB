@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 34,
     "active_layer_preset": "All Layers",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "power-thing.kicad_prl",
+    "filename": "evga1000g2db.kicad_prl",
     "version": 3
   },
   "project": {
