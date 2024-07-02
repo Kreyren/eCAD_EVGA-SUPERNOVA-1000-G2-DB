@@ -479,7 +479,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../build/pdf",
+      "plot": "../build/gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
