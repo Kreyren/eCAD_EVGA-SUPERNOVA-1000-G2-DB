@@ -113,7 +113,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../build/")
+			(outputdirectory "../build/drill_files")
 		)
 	)
 	(net 0 "")
@@ -931,7 +931,7 @@
 	(footprint "Symbol:KiCad-Logo2_20mm_SilkScreen"
 		(layer "F.Cu")
 		(uuid "2c74d4ad-7707-496b-a58b-57d96f6f6605")
-		(at 57 118)
+		(at 56.75 118.75)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
@@ -6649,20 +6649,20 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.SilkS")
-		(uuid "1de5add3-1b52-4840-916e-0c9800971ec9")
+		(layer "Cmts.User")
+		(uuid "7011eaeb-f4fb-4ca8-9b6d-0023fec4674f")
 		(pts
-			(xy 33.641969 29.820249) (xy 65.641969 29.820249)
+			(xy 33.641969 29.820249) (xy 33.641969 75.820249)
 		)
-		(height -4.5)
-		(gr_text "32.0000 mm"
-			(at 49.641969 24.220249 0)
-			(layer "F.SilkS")
-			(uuid "1de5add3-1b52-4840-916e-0c9800971ec9")
+		(height 7.141968)
+		(gr_text "46.0000 mm"
+			(at 25.350001 52.820249 90)
+			(layer "Cmts.User")
+			(uuid "7011eaeb-f4fb-4ca8-9b6d-0023fec4674f")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6682,20 +6682,20 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.SilkS")
-		(uuid "aeba8fc4-6b46-43e9-8f4a-d189ac61e87e")
+		(layer "Cmts.User")
+		(uuid "fcc4b0a0-351f-4905-94dc-aef8617b69ea")
 		(pts
-			(xy 33.641969 29.820249) (xy 33.641969 75.820249)
+			(xy 65.641969 29.820249) (xy 33.641969 29.820249)
 		)
-		(height 5.942274)
-		(gr_text "46.0000 mm"
-			(at 26.599695 52.820249 90)
-			(layer "F.SilkS")
-			(uuid "aeba8fc4-6b46-43e9-8f4a-d189ac61e87e")
+		(height 6.570248)
+		(gr_text "32.0000 mm"
+			(at 49.641969 22.100001 0)
+			(layer "Cmts.User")
+			(uuid "fcc4b0a0-351f-4905-94dc-aef8617b69ea")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
