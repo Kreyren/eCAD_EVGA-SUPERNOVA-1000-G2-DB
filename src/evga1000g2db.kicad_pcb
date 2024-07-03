@@ -11,6 +11,7 @@
 		(title "EVGA SUPERNOVA 1000 G2 Input Power Daughter Board")
 		(date "2024-07-02")
 		(rev "1")
+		(company "https://github.com/Kreyren/eCAD_EVGA-SUPERNOVA-1000-G2-DB")
 	)
 	(layers
 		(0 "F.Cu" power)
@@ -2810,7 +2811,7 @@
 		(uuid "e102c909-ede5-4f14-810c-4fd4ccef3b52")
 		(at 49.041969 69.220249)
 		(property "Reference" "SW1"
-			(at 4.5 0.5 0)
+			(at 3.5 1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3d62630b-3da4-40ec-bf17-d0fb682acf81")
@@ -2888,7 +2889,7 @@
 			(uuid "c91eb68e-2720-43a7-a378-7563c7d78199")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 10.5 0)
+			(at 5.5 -1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ee245f02-6603-4a4a-b812-e445441afd25")
@@ -5367,6 +5368,17 @@
 		(net 2)
 		(uuid "fe33fce5-5a24-4449-92bf-72c7d0e3d8a7")
 	)
+	(gr_rect
+		(start 34.75 45.75)
+		(end 45.5 61.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "84ddba23-86f0-42f9-ada2-6076052b5389")
+	)
 	(gr_arc
 		(start 53.0397 58.582788)
 		(mid 49.348199 62.218124)
@@ -6659,7 +6671,26 @@
 			(justify left top)
 		)
 	)
-	(gr_text_box "1. The European Union's Restriction of Hazardous Substances Directive (RoHS) compliant without exemptions at latest certified version is required."
+	(gr_text_box "Power Supply Daughter Board"
+		(locked yes)
+		(start 33.75 77)
+		(end 65.75 79.25)
+		(layer "F.Fab")
+		(uuid "71c86597-9b86-4c5e-ae57-b71f1c9e8721")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(gr_text_box "0. Fabricate per ANSI/IPC-A-600, IPC-QE-605, IPC-4101, IPC-4552 and IPC-5M-840 specification.\n1. The European Union's Restriction of Hazardous Substances Directive (RoHS) compliant without exemptions at latest certified version is REQUIRED.\n2. Refer to the stackup table for the dimensions.\n3. Soldermask both sides of the board over bare copper with material per ANSI/IPC-SM-840. Color should be green if customer didn't specify otherwise.\n4. Indicated area on the bottom side available to apply markings such as manufacture logo, date-code, etc.. Use of other location to be approved by purchaser.\n5. Apply silkscreen using a non-conductive white epoxy ink.\n6. See fabrication files with same title or drawing number and reviion as this drawing.\n7. See separate drill file for hole locations.\n\n* BASE MATERIAL: Laminate epoxy glass Fire Resistant 4 (FR-4), natural color "
 		(start 148.8 26.1)
 		(end 284 161.7)
 		(layer "F.Fab")

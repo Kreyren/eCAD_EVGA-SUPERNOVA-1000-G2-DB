@@ -20,13 +20,13 @@ Turning off the power switch **IS NOT ENOUGH TO CUT POWER TO THE RELEVANT COMPON
 
 EVGA uses film capacitor with wrong rating (305VAC) while the Root Mean Square for 240VAC input power is is 340VAC, thus it's recommended to get an alternative capacitor with sufficient rating.
 
-## How To Order
+## How To Fabricate/Order
 
+We are trying to make the design easy to understand and fabricate for everyone interested in the project no matter the age or abilities in designing electrical components, don't hesitate to contact us directly (we will help you for free) or ideally by making a new issue in our repository so that we can adjust the project to make it easier to work with for you and others.
 
+Instrctions for fabrication are provided within the project files and should contain everything you need for fabrication, if something is missing or the fabricator is confused or needs additional details after you provide them the archive with the files then please file an issue in our repository so that we can make the process easier to understand and more intuitive even for those who are not familiar with electrical engineering.
 
-JLCPCB: https://cart.jlcpcb.com/quote?orderType=1&&homeUploadNum=faa62aeda777402eac21cb434500f11c&businessType=example&fileName=gerber.zip
-
-PCBWay: https://www.pcbway.com/orderonline.aspx?radBoardType=1&hidLength=32&hidWidth=46&hidNum=5&hidLayers=2&radPlatingType=HASL%20lead%20free
+You should always use the files provided in releases for fabrication as using files directly from the repository is likely to cause issues as they go through less strict quality assurance and should always be treated as used only for development.
 
 ### Credits
 
