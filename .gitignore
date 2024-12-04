@@ -1,0 +1,5 @@
+.direnv
+src/evga1000g2db-backups
+build
+_autosave-*.kicad_pcb
+~_autosave-*.kicad_pcb.lck
